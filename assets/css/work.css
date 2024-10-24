@@ -1,0 +1,300 @@
+body {
+  overflow: hidden;
+  overflow-y: auto;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.main-heading-wrapp {
+  position: relative;
+}
+.main-heading-wrapp .navbar-brand {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.main-heading-wrapp .about-header {
+  display: flex;
+  align-items: center;
+}
+.main-heading-wrapp a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #808080;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.main-heading-wrapp h2 {
+  color: #d1002c;
+  border-radius: 3px;
+  color: #d1002c;
+  padding-right: 5px;
+  font-size: 1.75rem;
+}
+.main-heading-wrapp .nav-link {
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+.main-heading-wrapp .nav-link:hover {
+  color: #d1002c;
+}
+.main-heading-wrapp .nav-item {
+  padding: 0 1.25rem;
+}
+.main-heading-wrapp strong {
+  color: #d1002c;
+}
+.main-heading-wrapp h1 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.main-heading-wrapp p {
+  color: #ffffff;
+}
+.main-heading-wrapp img {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 0 85%);
+          clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 0 85%);
+}
+.main-heading-wrapp .main-navbar-page {
+  background-color: #808080;
+}
+.main-heading-wrapp span {
+  color: #ffffff;
+  padding: 1rem;
+}
+.main-heading-wrapp .main-navbar-wrapp {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  width: 70%;
+  transform: translate(-10%, -10%);
+}
+.main-heading-wrapp .Project-btn {
+  background-color: #d1002c;
+  color: #ffffff;
+  padding: 1rem;
+  text-decoration: none;
+}
+.main-heading-wrapp .starting-info {
+  width: 30%;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-20%, -40%);
+}
+.main-heading-wrapp .info {
+  position: absolute;
+  width: 10%;
+  top: 40%;
+  right: 28%;
+  text-align: end;
+  transform: translate(100%, -40%);
+}
+.main-heading-wrapp .video {
+  text-decoration: none;
+  color: #000000;
+  background-color: #d1002c;
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+  border-radius: 50px;
+}
+.main-heading-wrapp .video-btn {
+  position: absolute;
+  bottom: 10%;
+  right: 30%;
+  transform: translate(-50%, -10%);
+}
+
+.about-us {
+  margin-top: 5rem;
+  text-align: center;
+}
+.about-us img {
+  width: 40%;
+}
+.about-us .first-img {
+  margin-left: 5rem;
+}
+.about-us h1 {
+  text-transform: uppercase;
+  padding: 3rem 0;
+}
+.about-us h6 {
+  padding-top: 2rem;
+  font-family: verdana;
+}
+
+.main-seccond-wrapp h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 4rem 0;
+}
+.main-seccond-wrapp h2 {
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+.main-seccond-wrapp h6 {
+  font-weight: 400;
+}
+.main-seccond-wrapp .text-right {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+.main-seccond-wrapp img {
+  width: 100%;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-seccond-wrapp .image-2 {
+  margin-top: 4rem;
+  width: 70%;
+}
+.main-seccond-wrapp .persons {
+  margin-top: 6rem;
+}
+.main-seccond-wrapp .person-id {
+  display: flex;
+  gap: 10px;
+  padding: 1rem 0;
+}
+.main-seccond-wrapp .person-id-2 {
+  margin-left: 29rem;
+}
+.main-seccond-wrapp p {
+  width: 100%;
+  color: #808080;
+}
+.main-seccond-wrapp a {
+  padding: 0.25rem 1rem;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 0.75rem;
+  border: 1px solid #808080;
+  color: #808080;
+  text-decoration: none;
+}
+
+.image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.main-third-para {
+  text-align: center;
+  margin: 2rem 0;
+}
+.main-third-para a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.15rem;
+  border: 1px solid #808080;
+  width: 10px;
+  height: 10px;
+  line-height: 10px;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 1s;
+}
+.main-third-para .one {
+  background-color: #d1002c;
+}
+.main-third-para a:hover {
+  background-color: #d1002c;
+  color: #ffffff;
+}
+
+.main-footer-page {
+  -webkit-clip-path: polygon(0 0, 70% 15%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 70% 15%, 100% 0, 100% 100%, 0 100%);
+}
+.main-footer-page h5 {
+  color: #ffffff;
+}
+.main-footer-page .row {
+  padding-top: 5rem;
+}
+.main-footer-page p {
+  color: #808080;
+}
+.main-footer-page .address {
+  padding-top: 5rem;
+}
+.main-footer-page .copy {
+  text-align: center;
+  padding: 5rem;
+  color: #ffffff;
+}
+.main-footer-page strong {
+  color: #d1002c;
+}
+
+@media (max-width: 767px) {
+  .main-seccond-wrapp .first-img {
+    margin-left: 0;
+  }
+  .main-heading-wrapp h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .main-heading-wrapp .starting-info {
+    width: 60%;
+    padding-top: 3rem;
+  }
+  .main-heading-wrapp .info {
+    padding-top: 1rem;
+    position: absolute;
+    width: 50%;
+    top: 25%;
+    right: 90%;
+    text-align: start;
+  }
+  .main-heading-wrapp .info p {
+    color: #808080;
+    padding-bottom: 1rem;
+  }
+  .main-heading-wrapp h2 {
+    padding-left: 1rem;
+    border-right: none;
+  }
+  .main-heading-wrapp p {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .main-heading-wrapp .Project-btn {
+    padding: 0.5rem;
+  }
+  .main-navbar-wrapp {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #000000;
+  }
+  .main-navbar-page {
+    background-color: #ffffff;
+    width: 100%;
+  }
+  .main-seccond-wrapp .text-right {
+    text-align: start;
+  }
+  .main-seccond-wrapp .person-id-2 {
+    margin-left: 0;
+  }
+  .main-fifth-wrapp .first-col {
+    margin-left: 0;
+  }
+  .main-fifth-wrapp .col-md-3 {
+    margin-top: 0;
+  }
+  .fourth-img h1 {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  .fourth-img p {
+    font-size: 1rem;
+    width: 95%;
+  }
+}/*# sourceMappingURL=work.css.map */

@@ -1,0 +1,486 @@
+$primary-color:#d1002c;
+$theme-color:#ffffff;
+$seccondary-color:#000000;
+$grey-color:#808080;
+body{
+    overflow: hidden;
+    overflow-y: auto;
+    font-family:"Nunito Sans", Arial, sans-serif;
+}
+
+
+.main-heading-wrapp{
+    position: relative;
+     .navbar-brand{
+        color: $theme-color;
+        font-size: 2rem;
+       
+     }
+    .nav-link{
+        color: $theme-color;
+        font-size: 1.25rem;
+        
+    }
+    .nav-link:hover{
+        color: $primary-color;
+    }
+    .nav-item{
+        padding: 0 1.25rem;
+    }
+    strong{
+        color: $primary-color;
+    }
+    h1{
+        color:$theme-color;
+        font-weight: 700;
+        width: 80%;
+    }
+    p{
+        color: $theme-color;
+    }
+    img{
+        height: 600px;
+        object-fit: cover;
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 0 85%);
+    }
+    
+    span{
+        color: $theme-color;
+        padding: 1rem;
+    }
+    .main-navbar-wrapp{
+        position: absolute;
+        top: 5%;
+        left: 20%;
+        right: 10%;
+        width: 70%;
+        transform: translate(-10%,-10%);
+    }
+    .Project-btn{
+        background-color: $primary-color;
+        color: $theme-color;
+        padding: 1rem;
+        text-decoration: none;
+
+    }
+    .starting-info{
+        width: 30%;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate(-20%,-40%);
+
+    }
+    .info{
+    position: absolute;
+    width: 10%;
+    top: 40%;
+    right: 28%;
+    text-align: end;
+    
+    transform: translate(100%,-40%);
+    
+    }
+    h2{
+        border-right: 4px solid $primary-color;
+        border-radius: 3px;
+        color: $theme-color;
+        padding-right: 5px;
+    }
+  .video{
+    text-decoration: none;
+    color: $seccondary-color;
+    background-color: $primary-color;
+    padding: 1rem;
+    font-size: 1.5rem;
+    align-items: center;
+    border-radius: 50px;
+  }
+  .video-btn{
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    transform: translate(-50%,-10%);
+  }
+}
+.about-us{
+       margin-top: 5rem;
+       text-align: center;
+    img{
+        width: 40%;
+        
+    }
+    .first-img{
+        margin-left: 5rem;
+    }
+    h1{
+        text-transform: uppercase;
+        padding: 3rem 0;
+    }
+    h6{
+        padding-top:2rem ;
+        font-family: verdana;
+    }
+   
+    
+}
+.main-navbar-page{
+    background-color:$grey-color;
+        z-index: 10;
+    justify-content: space-between;
+ 
+
+  }
+.seccond-para{
+     margin-top: 3rem;
+     margin-bottom: 9rem;
+     font-family: "Nunito Sans", Arial, sans-serif;
+    h1{
+        text-align: end;
+        font-size: 2rem;
+
+    }
+    .p-small{
+        text-align: start;
+
+    }
+    .seo-clas{
+        display: flex;
+        gap: 5px;
+    }
+    
+    p{
+        text-align: end;
+        font-family: verdana;
+        font-size: 1rem;
+        color:$grey-color ;
+    }
+    img{
+        
+        width: 100%;
+        height: 310px;
+        object-fit: cover;
+    }
+    .para-2{
+     text-align: start;
+    }
+    a{
+        text-decoration: none;
+        color: $theme-color;
+        background-color: $primary-color;
+        padding: .5rem .25rem;
+        border-radius: 5px;
+    }
+    strong{
+        color: $primary-color;
+        font-size: 4rem;
+        font-weight: 400;
+        border-bottom: 1px solid $grey-color;
+
+    }
+    .seo{
+        width: 70%;
+        padding-top: 1.15rem;
+    }
+}
+.main-third-page{
+    clip-path: polygon(30% 0, 100% 10%, 100% 90%, 70% 100%, 0 95%, 0 10%);
+    padding: 15rem 0;
+    
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        padding: 4rem 0;
+    }
+    h2{
+        font-family: "Nunito Sans", Arial, sans-serif;
+    }
+    h6{
+        font-weight: 400;
+    }
+    .text-right{
+        text-align: right;
+        margin-bottom: 2rem;
+    }
+   img{
+    
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+   }
+   .image-2{
+    margin-top: 4rem;
+    width: 70%;
+   }
+   .persons{
+    margin-top: 6rem;
+   }
+   .person-id{
+    display: flex;
+    gap: 10px;
+    padding: 1rem 0;
+   }
+   .person-id-2{
+    margin-left: 29rem;
+    
+   }
+   p{
+    width: 100%;
+    color: $grey-color;
+    
+   }
+   a{
+    padding: .25rem 1rem;
+    text-transform: uppercase;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: .75rem;
+    border: 1px solid $grey-color;
+    color: $grey-color;
+    text-decoration: none;
+    
+   }
+}
+.image{
+
+    img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+}
+.main-fourth-wrapp{
+         display: flex;
+        padding: 15rem 0;
+        font-family:"Nunito Sans", Arial, sans-serif;
+    img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;   
+    }
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .person-info{
+        display: flex;
+        gap: 10px;
+    }
+    .col-md-3{
+        position: relative;
+        border-radius: 5px ;
+        padding: 3rem 1rem;
+        margin: 2rem 0;
+        margin-right: 1rem;
+    }
+    .first-col{
+        margin-left: 6rem;
+    }
+    h2{
+        color: $primary-color;
+        font-size: 4rem;
+        font-weight: 800;
+        position: absolute;
+        width: 50%;
+        top: -20%;
+        left: 10%;
+        transform: translate(-10,20%);
+    }
+    
+}
+.fourth-img{
+     position: relative;
+    img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 0;
+    }
+    h6{
+        color: $primary-color;
+        font-weight: 300;
+    }
+    h1{
+        text-align: start;
+        font-size: 2rem;
+        font-weight: 500;
+        text-transform: none;
+        width: 40%;
+        color: $theme-color;
+    }
+    p{
+        font-size: 1.15rem  ;
+        color: $grey-color;
+        width: 50%;
+    }
+    a{
+        background-color: $primary-color;
+        color: $theme-color;
+        text-decoration: none;
+        padding: .5rem 1rem;
+
+    }
+    .fourth-info{
+        position: absolute;
+        width: 100%;
+        top:20%;
+        left: 5%;
+        transform: translate(0,10%);
+    }
+}
+.main-fifth-page{
+    clip-path: polygon(30% 0, 100% 10%, 100% 90%, 70% 100%, 0 95%, 0 10%);
+    padding: 15rem 0;
+    margin-bottom: 0;
+    h1{
+        text-transform: uppercase;
+        font-family:"Nunito Sans", Arial, sans-serif;
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 2rem;
+    }
+    img{
+        width: 100%;
+        height: 350px;
+    }
+    h3{
+        font-weight: 400;
+        font-size: 1.25rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    p{
+        color: $grey-color;
+        font-size: 1.15rem;
+    }
+    .row{
+        padding: 1rem 0;
+    }
+}
+.main-footer-page{
+      clip-path: polygon(0 0,70% 15%, 100% 0, 100% 100%, 0 100%);
+     
+
+    h5{
+        color: $theme-color;
+        
+    }
+    .row{
+        padding-top: 5rem;
+    }
+    p{
+        color: $grey-color;
+    }
+    .address{
+        padding-top: 5rem;
+    }
+    .copy{
+        text-align: center;
+        padding: 5rem;
+        color: $theme-color;
+    }
+    strong{
+        color: $primary-color;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+   .main-seccond-wrapp{
+      .first-img{
+        margin-left: 0;
+      }
+      
+
+   }
+   .seccond-para{
+    p{
+        text-align:start;
+      }
+      h1{
+        text-align: start;
+       }
+   }
+   
+    .main-heading-wrapp{
+        h1{
+            font-size: 1rem;
+            width: 100%;
+        }
+        .starting-info{
+            width: 60%;
+            padding-top: 3rem;
+        }
+        .info{
+            padding-top: 1rem;
+            position: absolute;
+            width: 50%;
+            top: 25%;
+            right: 90%;
+            text-align: start;
+            p{
+                color: $grey-color;
+                padding-bottom: 1rem;
+            }
+        }
+        h2{
+            padding-left: 1rem;
+            border-right: none;
+            border-left: 4px solid $primary-color ;
+        }
+        p{
+            width: 100%;
+            font-size: 1rem;
+        }
+        .Project-btn{
+            padding: 0.5rem;
+        }
+    }
+    .main-navbar-wrapp{
+        
+        width: 100%;
+        background-color: $seccondary-color;
+       
+    }
+    .main-navbar-page{
+        background-color: $theme-color;
+        width: 100%;
+    }
+        
+    
+    .main-third-page{
+        .text-right{
+            text-align: start;
+        }
+        .person-id-2{
+            margin-left: 0;
+        }
+    }
+    .main-fourth-wrapp{
+
+        .first-col{
+            margin-left: 0;
+        }
+        .col-md-3{
+            margin-top: 0;
+        }
+    }
+    .fourth-img{
+        h1{
+            font-size: 1.5rem;
+            width: 80%;
+        }
+        p{
+            font-size: 1rem;
+            width: 95%;
+        }
+    }
+    
+}
